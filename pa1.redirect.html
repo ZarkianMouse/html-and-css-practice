@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Burhoe Project #1</title>
+	<link href="https://fonts.googleapis.com/css?family=Finger+Paint|Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./burhoe_proj1_style.css">
+
+	<style>
+
+	#dog, #gull {
+		position: relative;
+		width: 140px;
+		height: 130px;
+		margin: 20px;
+		padding: 20px;
+		background-color: lightgrey;
+		-webkit-animation: ex1 5s linear 2s infinite alternate;
+		animation: ex1 5s linear 2s infinite alternate;
+	}
+
+	@-webkit-keyframes ex1 {
+		0% {background-color: lightgrey; left:0px; top:0px;}
+		25% {background-color:blue; left:200px; top:0px;}
+		50% {background-color:red; left:200px; top:200px;}
+		75% {background-color:yellow; left: 0px; top:200px;}
+		100%{background-color:lightgrey; left:0px; top:0px;}
+	}
+	@keyframes ex1 {
+		0% {background-color: lightgrey; left:0px; top:0px;}
+		25% {background-color:blue; left:200px; top:0px;}
+		50% {background-color:red; left:200px; top:200px;}
+		75% {background-color:yellow; left: 0px; top:200px;}
+		100%{background-color:lightgrey; left:0px; top:0px;}
+	}
+	</style>
+
+</head>
+
+<body>
+
+   <div class="header">
+	<h2>Welcome to the Project #1 Website</h2>
+	<p> Finished on: <time datetime="2019-09-03T17:00">September 3, 2019</time></p>
+   </div>
+
+   <div class="topnav">
+	<a href="https://www.w3schools.com">Help with webpage programming</a>
+	<a href="https://en.wikipedia.org/wiki/Quokka">All about Quokkas (animal)</a>
+	<a href="https://en.wikipedia.org/wiki/Snow_leopard">All about Snow Leopards</a>
+	<a href="https://www.geeksforgeeks.org/references-in-c/" style="float:right">Help with C++ programming</a>
+   </div>
+
+   </div class="row">
+	<div class="column side">
+		<h3>Cool Animations</h3>
+		
+		<div class="dog">
+		<img id="dog" src="dog_pic.jpg" alt="funny dog">
+		</div>
+	</div>
+	<div class="column middle">
+		<form style="float:right; width: 100%;" action="pa1.html" target="_self">
+		      <div class="rgt"><input type="submit" value="Logout"></div>
+		</form>
+		<h1>Introduction to my world</h1>
+		
+		<img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg" alt="autumn forest path">
+		<hr>
+		<h2 style="text-align:center">The Road Not Taken</h2>
+		<h3>By: Robert Frost</h3>
+		<pre style="text-align:center">Two roads diverged in a yellow wood,
+And sorry I could not travel both
+And be one traveler, long I stood
+And looked down one as far as I could
+To where it bent in the undergrowth;
+
+Then took the other, as just as fair,
+And having perhaps the better claim,
+Because it was grassy and wanted wear;
+Though as for that the passing there
+Had worn them really about the same,
+
+And both that morning equally lay
+In leaves no step had trodden black.
+Oh, I kept the first for another day!
+Yet knowing how way leads on to way,
+I doubted if I should ever come back.
+
+I shall be telling this with a sigh
+Somewhere ages and ages hence:
+Two roads diverged in a wood, and I-
+I took the one less traveled by,
+And that has made all the difference.</pre>
+		
+	</div>
+	<div class="column side">
+		<h3>Cool Animations</h3>
+		
+		<img id="gull" src="gull_pic.jpg" alt="seagull closeup">
+	</div>
+   </div>
+   
+   <div class="footer">
+	<audio controls>
+			<source src="naturesounds.ogg">
+			Your browser does not support the audio tag.
+	</audio>
+   </div>
+	
+</body>
+</html>

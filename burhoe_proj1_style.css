@@ -1,0 +1,157 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgrey;
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.header, .footer {
+	background-color: #813F09;
+	text-align: center;
+	padding: 32px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #A0C580;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #F2D689;
+	border-style: solid;
+	border-width: thick, medium, thin;
+	border-color: lightgrey;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #738036;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	width: 25%;
+}
+
+.topnav a:hover {
+	background-color: #DF980D;
+	color: #F0F375;
+}
+
+.column {
+	float: left;
+	border-style: solid;
+	border-width: thick, thin, thick;
+	border-color: lightgrey;
+
+}
+
+.column.side {
+	background-color: #A0C580;
+	width: 25%;
+	color: #813F09;
+}
+
+.column.middle {
+	background-color: #ffff99;
+	width: 50%;
+	font-family: "Finger Paint", cursive;
+
+}
+
+.column.middle h1 {
+	font-size: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+   .column.side, .column.middle {
+	width: 100%;
+   }
+}	
+
+
+h1, h3, .myquotes p {
+	text-align: center;
+}
+
+h2, h3, h4 {
+	font-family: "Finder Paint", cursive;
+	font-size: 16px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: medium;
+	width: 30%;
+	height: 20%;
+}
+
+a img {
+	float: left;
+	background-color: lightgrey;
+	padding: 10px;
+	margin: 21px;
+}
+
+.column.middle form {
+	float: center;
+	text-align: left;
+	display: block;
+	width: 40%;
+	background-color: #CFCA87;
+	border-style: solid;
+	border-color: #A0C580;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+.myquotes, .about {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 40%;
+	font-size: 15px;
+}
+
+audio {
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+ul {
+	list-style: none;
+
+}
+
+span {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.rgt {
+	text-align: right;
+}
+
